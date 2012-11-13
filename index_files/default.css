@@ -1,0 +1,16 @@
+@media screen { 
+	body {
+		background-color: blue;
+		width: 650px;
+		margin: 0 auto; background: #000; color: #FFF;
+		font: 12px sans-serif;
+	}
+
+	h1 {
+		margin-bottom: 10px; 
+		font-size: 14px; 
+		color: red;
+		font-weight: bold; 
+		text-align: left;
+	}
+}
