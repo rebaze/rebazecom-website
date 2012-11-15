@@ -2,3 +2,12 @@
 layout: page
 title: Rebaze Blog
 ---
+
+<div id="contentWrapper"><div id="content">
+	<ul class="twocols"><h2>Blog Entries</h2></ul>
+	    <ul class="twocols">
+{% for post in site.posts %}
+    <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></span>
+   {% endfor %}
+</ul>
+</div></div>
