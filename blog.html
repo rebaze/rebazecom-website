@@ -2,12 +2,20 @@
 layout: page
 title: Rebaze Blog
 ---
-
 <div id="contentWrapper"><div id="content">
-	<ul class="twocols"><h2>Blog Entries</h2></ul>
-	    <ul class="twocols">
+<div class="single-journal-entry-wrapper">
+<div class="journal-entry-wrapper post-text authored-by-rebaze category-osgi">
+<div id="item25617463" class="journal-entry">
+	   
 {% for post in site.posts %}
-    <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></span>
+<div class="journal-entry-float-date">
+	<span class="month">{{post.left1}}</span><span class="date">{{post.left2}}</span>
+	</div>
+    {{post.content}}
+&raquo; <a href="{{ post.url }}">Permalink</a></span><BR/>
+<BR/>
    {% endfor %}
-</ul>
-</div></div>
+
+</div>
+</div>
+</div>

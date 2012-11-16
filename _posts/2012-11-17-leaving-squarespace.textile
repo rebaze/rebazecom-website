@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Rebaze joins the OSGi Alliance
-left1: Aug
-left2: 27
+title: We left squarespace for jekyll
+left1: Nov
+left2: 17
 ---
 
 h2. {{ page.title }}
